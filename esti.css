@@ -1,0 +1,51 @@
+/* Estilos para la tabls de Recorridos*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el formulario de Reserva     */
+form {
+  margin-top: 50px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+/*tengo mis dudas si me funciono xd*/
+form select, form input[type="date"], form input[type="email"], form input[type="text"], form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
+
